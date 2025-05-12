@@ -10,6 +10,10 @@
 // glib
 #include <glib.h>
 
+// POSIX
+#include <sys/stat.h>
+#include <unistd.h>
+
 // udev
 #include <libudev.h>
 #include <fcntl.h>
